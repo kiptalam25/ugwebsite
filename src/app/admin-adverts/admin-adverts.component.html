@@ -1,0 +1,29 @@
+<!-- <app-admin-menu></app-admin-menu> -->
+<div class="body">
+    <div class="first-container">
+<div class="form">
+    <div class="header">
+        Add New Advert
+    </div>
+<div class="form-fields">
+    <label>Title</label>
+    <input class="margin-padd" type="text" placeholder="Title">
+    <label>Sub-Title</label>
+    <input class="margin-padd" type="text" placeholder="Sub-Title">
+    <label >Media Type</label>
+    <select>
+        <option value="" (mousedown)="media=false">None</option>
+        <option value="" (mousedown)="media=true">Video</option>
+        <option value="" (mousedown)="media=true">Audio</option>
+    </select>
+    <input *ngIf="media" type="file" class="margin-padd">
+    <label>Content</label>
+    <textarea class="margin-padd" type="text" placeholder="Content"></textarea>
+    <input class="margin-padd" type="submit" value="Submit">
+</div>
+</div>
+<div class="current-adverts">
+    adverts
+</div>
+    </div>
+</div>

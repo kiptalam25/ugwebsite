@@ -1,0 +1,48 @@
+
+.left-menu{
+    // width: ;
+    background-color: rgb(43, 43, 43);
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.right-content{
+background-color: rgb(249, 252, 237);
+color: black;
+width: 100%;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu-item{
+    height: 25px;
+    border-bottom: 2px dotted brown;
+    color: white;
+    padding: 10px;
+    
+
+}
+.menu-item:hover{
+    // height: 29px;
+    // border-bottom: 2px dotted brown;
+    color: rgb(0, 217, 233);
+    // background-color: rgb(253, 230, 166);
+    cursor: pointer;
+    //
+
+  animation: mymove 1s infinite;
+  border-left: 4px solid rgb(0, 217, 233);
+}
+@keyframes mymove {
+    50% {border-left:4px solid rgb(252, 252, 252) ;}
+  }
+
+  mat-tab-group{
+    background-color: darkgoldenrod;
+  }

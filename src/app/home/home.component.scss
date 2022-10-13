@@ -1,0 +1,119 @@
+.news-card{
+    max-width: 200px;
+    margin: 5px;
+    // height: 400px;
+    overflow-y: hidden;
+  }
+  .example-news-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .news-image{
+    width: 100%;
+    height: 5cm;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .news-main{
+    // position: absolute;
+    display:flex;flex-wrap:wrap;
+    // justify-content:space-between; 
+    justify-content: center;
+    padding: 2%;
+    // background: rgb(253, 255, 219);
+    border-bottom: 1px solid brown;
+    width: 100%;
+  }
+  .right-adverts{
+    // justify-self: end;
+    // background-color: rgb(254, 255, 191);
+    // overflow: scroll;
+    overflow-y: scroll;
+    // margin-right: 0%;
+    height: 6cm;
+    margin: 20px;
+    width: 20%;
+        }
+  .news{
+    // position: absolute;
+   width: 40%;
+    display:flex;flex-wrap:wrap;
+    justify-content:space-between; 
+    padding: 5%;
+    // background: rgb(253, 255, 219);
+    border-bottom: 1px solid brown;
+    // border-bottom: 3px dotted #bbb;
+  }
+  .h2{
+    text-align: center;
+    height: fit-content;
+    // position: sticky;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-transform: uppercase;
+    font-size: 50px;
+    // text-decoration-thickness: 50%;
+  }
+  .news-headline{
+    color: red;
+    text-decoration: underline;
+  }
+    // html { scroll-behavior: smooth; } 
+
+          .footer{
+            height: 5cm;
+          }
+          .news{
+            width: auto; 
+            /* background-color: #007e06; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            /* padding: 20px; */
+            /* height: 20cm; */
+          }
+          .body{
+            display: flex;
+            flex-direction: column;
+          }
+
+          .example-card{
+            width: 6cm;
+            margin: 5px;
+            padding: 10px;
+            height:5cm;
+            overflow-y: hidden;
+            background: cornsilk;
+            color: black;
+        
+          }
+
+          .waviy span {
+            position: fixed;
+            margin-top: 29rem;
+            margin-left: 78rem;
+            display: inline-block;
+            font-size: 40px;
+            color: black;
+            text-transform: uppercase;
+            animation: flip 5s infinite;
+            animation-delay: 0s;//calc(.2s * var(--i))
+          }
+          @keyframes flip {
+            0%,80% {
+              transform: rotateY(360deg) 
+            }
+          }
+
+          .downloads{
+            display: flex;
+            flex-direction: column;
+            width: 20rem;
+            margin: 2rem;
+            padding: 0.75rem;
+
+          }

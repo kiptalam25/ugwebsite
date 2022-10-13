@@ -1,0 +1,161 @@
+<div class="body">
+  <div class="appbar">
+<app-appbar></app-appbar>
+</div>
+<div class="waviy">
+  <span style="--i:1">G</span>
+ </div>
+<div class="slider">
+<app-slider></app-slider>
+</div>
+
+
+<!-- <router-outlet></router-outlet> -->
+<!-- <a href="#news">News</a> -->
+  <div class="main-container">
+    <div class="news-main">
+    <mat-card class="example-card" routerLink="trends">
+      <mat-card-title>Technology</mat-card-title>
+      <mat-card-title-group>
+       
+        <mat-card-subtitle>Up-to-date</mat-card-subtitle>
+            </mat-card-title-group>
+            <img mat-card-md-image src="http://192.168.1.37/wp-content/uploads/2022/07/AGROHUB-MOISBRIDGE-PARK.jpg" >
+      <mat-card-content>
+        {{longText}}
+      </mat-card-content>
+    </mat-card>
+    <mat-card class="example-card">
+      <mat-card-title>National Government</mat-card-title>
+      <mat-card-title-group>
+
+        <mat-card-subtitle>Projects</mat-card-subtitle>
+        <img mat-card-md-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+      </mat-card-title-group>
+      <mat-card-content>
+        National Government works hand in hand with county Government.
+      </mat-card-content>
+    </mat-card>
+    <mat-card class="example-card">
+
+      <mat-card-title>Health And Safety</mat-card-title>
+      <mat-card-title-group>
+        <mat-card-subtitle>Covid 19</mat-card-subtitle>
+        <img mat-card-md-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+      </mat-card-title-group>
+      <mat-card-content>
+        Following the outbreak of Covid 19. Pata chanjo
+      </mat-card-content>
+    </mat-card>
+    <mat-card class="example-card">
+
+      <mat-card-title>News</mat-card-title>
+      <mat-card-title-group>
+        <mat-card-subtitle>Top News</mat-card-subtitle>
+        <img mat-card-md-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+      </mat-card-title-group>
+      <mat-card-content>
+        <app-top-news></app-top-news>
+      </mat-card-content>
+    </mat-card>
+
+  </div>
+ </div>
+  <div class="h2" id="news">News</div>
+
+
+
+  <div class="news">
+    <app-top-news></app-top-news>
+    <mat-card class="news-card">
+      <h2 class="news-headline">Business News</h2>
+      <img class="news-image" mat-card-image src="https://scontent.ffjr1-5.fna.fbcdn.net/v/t39.30808-6/293021390_2502271789949709_7919831742381582770_n.jpg?stp=dst-jpg_p180x540&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeG2BT6VAU1JBpD4TplB9DNKJae-KUI0TNQlp74pQjRM1FBfoKyJc5accHHXvKJ5UA6Dy38s6hGYEeIZyH6E-sQr&_nc_ohc=Ow_C5EWy2tEAX-fH1we&_nc_pt=1&_nc_ht=scontent.ffjr1-5.fna&oh=00_AT9NimgfZxDLMc3JzI8HBRAE1Hj8d8V4YiGyE-kDomRCpg&oe=62D4B65F" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          "Bangi si mboga. It destroys lives. Wajackoyah's narrative is demonic.
+           Huyu ni shetani anamtumia na umeshindwa! River of God preacher
+            Tony Kiamah condemns presidential candidate George Wajackoyah 
+            over his bhang narrative.
+          "God is against you and our children will not smoke bhang.
+           I have seen people struggle with drug abuse. 
+           In Eastlands where I grew up, it is by the grace of God that
+            some of us got out unscathed. Some were not fortunate. Some went nuts,
+            " the preacher said. 
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+   
+    <mat-card class="news-card">
+      <h2 class="news-headline">Traffic News</h2>
+      <mat-card-header>
+        <div mat-card-avatar class="example-news-image"></div>
+        <mat-card-title>Shiba Inu</mat-card-title>
+        <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+      </mat-card-header>
+      <img  class="news-image" mat-card-image src="https://scontent.ffjr1-3.fna.fbcdn.net/v/t39.30808-6/293376884_3269417656666171_1931862546913181085_n.jpg?stp=dst-jpg_p526x296&_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEH9Mj5sSFILqx73TtUfmQsxN6f212_UjLE3p_bXb9SMtR_RJjhGfIREsLTuPtZbAgkmBnTzm1OTcpev1_MZ4HZ&_nc_ohc=6oNvloDp6NIAX_DGyDK&_nc_pt=1&_nc_ht=scontent.ffjr1-3.fna&oh=00_AT-KU3MwLEnk5-PH0YKviRX1HUDgab0IFpoLfZFbFkAsug&oe=62DABA9D" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+          bred for hunting.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+    
+    <mat-card class="news-card">
+      <h2 class="news-headline">Political News</h2>
+      <mat-card-header>
+        <mat-card-title>Breaking News</mat-card-title>
+        <mat-card-subtitle>Ruto Vs Raila</mat-card-subtitle>
+      </mat-card-header>
+      <img  class="news-image" mat-card-image src="https://pbs.twimg.com/media/FX8E6s2akAANDkW?format=jpg&name=small" alt="Photo of a Shiba Inu">
+      
+      <mat-card-content>
+        <p>
+          I'm a freelance web and app developer, I make all types of Websites and Mobile Apps. I have been developing for many years. And I have created websites and apps of their choice for some customers. If you have any idea let me know. I am ready to work for you.
+          Contact on whatsapp
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <h2>Programs And Initiatives</h2>
+  <div class="news">
+    
+    <mat-card class="news-card">
+      <mat-card-title>Internship</mat-card-title>
+      <mat-card-content>Uasin Gishu county offers Paid Internship. How to apply...</mat-card-content>
+
+    </mat-card>
+    <mat-card class="news-card">
+      <mat-card-title>Environment</mat-card-title>
+      <mat-card-content>Distribution of Seedlings. Planting of trees</mat-card-content>
+    </mat-card>
+    <mat-card class="news-card">
+      <mat-card-title>Developments</mat-card-title>
+      <mat-card-content>Ziwa Level5 hospital under construction</mat-card-content>
+    </mat-card>
+    <mat-card class="news-card">
+      <mat-card-title>Technology</mat-card-title>
+      <mat-card-content>ICT Systems and Services</mat-card-content>
+    </mat-card>
+  </div>
+  
+  <div class="downloads">
+    <h1 class="header">Downloads</h1>
+    <app-downloads></app-downloads>
+  </div>
+  <div class="footer">footer</div>
+
+</div>

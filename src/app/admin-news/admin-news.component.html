@@ -1,0 +1,52 @@
+
+<app-admin-menu></app-admin-menu>
+<a href="#news1"><button >Uploaded News</button></a>
+<div class="body">
+  <div class="container">
+
+
+
+<div class="form">
+  <div class="header">
+    <h1>Add News</h1>
+  </div>
+  <div class="form-fields">
+<select class="margin-padd">
+  <option>Category</option>
+  <option>Science & Technology</option>
+  <option>Political</option>
+  <option>Environment</option>
+</select>
+<label for="">Title</label>
+<input class="margin-padd" class="input" type="text" placeholder="Title">
+<label for="">Sub-title</label>
+<input class="margin-padd" class="input" type="text" placeholder="Sub-Title">
+<label for="">Content</label>
+<textarea class="margin-padd" class="input" type="text" placeholder="Content"></textarea>
+<label>MediaType</label>
+<select class="margin-padd">
+  <option value="none" (mousedown)="show=false">None</option>
+  <option value="video" (mousedown)="showhide()">Video</option>
+  <option value="audio" (mousedown)="showhide()">Audio</option>
+</select>
+<input *ngIf="show" class="margin-padd" id="fileupload" type="file" name="fileupload" />
+<input class="margin-padd" type="submit" value="Submit">
+
+</div>
+</div>
+<div class="middle">
+  <div class="header">Header</div>
+  Middle
+</div>
+<div class="end">
+  <div class="header">
+    end
+  </div>
+</div>
+
+  </div>
+  <div style="height: 20cm;">sdfghj</div>
+<div class="uploaded-news" id="news1">Uploaded News<br>
+sdfghjkl
+</div>
+</div>

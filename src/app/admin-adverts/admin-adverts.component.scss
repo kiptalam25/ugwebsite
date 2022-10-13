@@ -1,0 +1,27 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    margin: 0.25rem;
+    background-color: aliceblue;
+    height: 100vh;
+
+    .first-container{
+        display: flex;
+        flex-direction: row;
+        // justify-content: flex-start;
+        border: 1px solid black;
+    }
+}
+.form{
+    margin: 2rem;
+.form-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: 10px;
+    // width: auto;
+    // padding: 0.65rem;
+    // margin: 1rem;
+    background: blanchedalmond;
+    // border: 1px solid black;
+}}
+

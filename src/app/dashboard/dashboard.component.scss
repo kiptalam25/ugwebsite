@@ -1,0 +1,12 @@
+.dashboard-container{
+    width: 200vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+
+    .holder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

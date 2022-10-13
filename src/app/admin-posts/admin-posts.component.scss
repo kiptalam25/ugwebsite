@@ -1,0 +1,106 @@
+.add-post-form{
+    box-shadow: 2px 2px 1px 1px darkslategrey;
+    border: 1px solid black;
+    border-radius: 0.65rem;
+    width: 16.25rem;
+    padding: 2rem;
+    .form-fields{
+        display: flex;
+        flex-direction: column;
+        // justify-content: 10px;
+    }
+    .header{
+        text-align: center;
+        padding: 0.56rem;
+        font-size: 24;
+        position: relative;
+        background-color: coral;
+        color: dodgerblue;
+    }
+    
+}
+.body{
+    display: flex;
+    // flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rows{
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.label{
+    padding: 0.56rem;
+}
+
+.button{
+    margin: 0.65rem;
+    padding: 0.56rem;
+    font-size: large;
+}
+.margin-padd{
+    margin: 0.65;
+    padding: 0.56rem;
+}
+
+.uploaded-posts{
+    width: 80vh;
+    margin: 00.65rem;
+    background-color: azure;
+     box-shadow: 2px 2px 1px 1px lightblue;
+}
+.right-panel{
+    width: 60vh;
+    background-color: aqua;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.56rem;
+    font-size: 24;
+    position: relative;
+    background-color: coral;
+    color: dodgerblue;
+}
+.current-posts{
+    width: calc(100% - 5rem);
+    margin: 2rem;
+    .post{
+        background-color: azure;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-bottom: 1px solid rgb(90, 88, 88);
+        margin-bottom: 10px;
+        .post-title{
+            margin-top: auto;
+            margin-bottom: auto;
+            // flex: 0 1 auto;
+        }
+        .post-content{
+            flex: 0 1 auto;
+            flex-direction: column;
+
+            text-align:center;
+            position: relative;
+                // left: 100px;
+                // height: 200px;
+                // width: 500px;
+                background-color: green;
+
+            background-color: aquamarine;
+            .actions{
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                // position: absolute;
+                // margin-bottom: 0px;
+                // display: flex;
+        //    align-self: flex-end;
+            }
+        }
+    }
+}

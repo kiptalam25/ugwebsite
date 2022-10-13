@@ -1,0 +1,84 @@
+
+<div class="body">
+    <div class="rows">
+    <div class="add-post-form">
+        <div class="header">New Post</div>
+        <div class="form-fields">
+            <label for="" class="label">Title</label>
+            <input type="text" name="title" placeholder="Title">
+            <label for="" class="label">Sub-Title</label>
+            <input type="text" name="title" placeholder="Subtitle">
+            <label for="" class="label">Content</label>
+            <textarea type="text" name="title" placeholder="Content"></textarea>
+            <label for="" class="label">Discription</label>
+            <input type="text" name="title" placeholder="Discription">
+            <label for="" class="label">Media</label>
+            <select class="margin-padd">
+                <option selected="true" (mousedown)="removeMedia()">None</option>
+                <option (mousedown)="setMedia()">Video</option>
+                <option (mousedown)="setMedia()">Audio</option>
+                <option (mousedown)="setMedia()">File</option>
+            </select>
+            <input class="margin-padd" type="file" *ngIf="media">
+            <input class="button" type="submit" name="title" value="Submit">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="uploaded-posts">
+        <div class="header">
+            <i class="fa fa-calendar"></i> 
+            <div>current posts</div>
+            <div>Remove posts</div>
+        </div>
+        <div class="posts">
+            <div class="header">
+                Municipality
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="right-panel">
+        <div class="header">
+            <i class="fa fa-calendar"></i> 
+            <div>current posts</div>
+            <div>Remove posts</div>
+        </div>
+    </div>
+</div>
+
+<div class="current-posts">
+    <div class="header">
+        Current Posts
+    </div>
+    <div class="post" *ngFor="let d of num">
+        <div class="post-title">
+           <h1> Hurricane</h1>
+           <h1> Hurricane</h1>
+           <h1> Hurricane</h1>
+        </div>
+        <div class="post-subtitle">
+            morris
+        </div>
+        <div class="post-media">
+        <img src="data:image/png;base64,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">
+        </div>
+        <div class="post-content">
+            <p>Hello world ghghgh ghh f</p>
+            <div class="actions">
+                <button>Hello</button>
+                <button>world</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

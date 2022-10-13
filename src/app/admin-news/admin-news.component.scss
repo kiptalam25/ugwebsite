@@ -1,0 +1,28 @@
+mat-form-field{
+    background-color: black;
+}
+.input{
+    border-radius: 2px;
+    margin: 5px;
+}
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 5px 5px #aaaaaa;
+    
+}
+.container{
+    // background-color: #E9E9E9;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.body{
+    
+    background-color: #E9E9E9;
+    display: flex;
+    flex-direction: column;
+}
